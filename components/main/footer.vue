@@ -27,14 +27,5 @@ const path = computed(() => route.fullPath.replace('/', ''))
 
 <style>
 /* we will explain what these classes do next! */
-.v-enter-active,
-.v-leave-active {
-  transition: all 0.4s;
-}
 
-.v-enter-from,
-.v-leave-to {
-  opacity: 0;
-  filter: blur(1rem);
-}
 </style>

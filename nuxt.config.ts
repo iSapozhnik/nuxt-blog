@@ -8,9 +8,7 @@ export default defineNuxtConfig({
       viewport: 'width=device-width,initial-scale=1',
       title: navbarData.homeTitle,
       titleTemplate: `%s - ${navbarData.homeTitle}`,
-    },
-    pageTransition: { name: 'page', mode: 'out-in' },
-    layoutTransition: { name: 'layout', mode: 'out-in' },
+    }
   },
 
   sitemap: {
